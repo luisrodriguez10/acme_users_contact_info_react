@@ -56,7 +56,7 @@ class App extends React.Component {
         <h1>
           <a href="#">Acme Users Contact Information</a>
         </h1>
-        <div>
+        <div id="main">
           {userSelected ? (
             <UserInformation userSelected={userSelected} users={users} />
           ) : (
